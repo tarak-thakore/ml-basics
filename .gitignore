@@ -5,6 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
+*.pth
 
 # Distribution / packaging
 .Python
@@ -20,6 +21,7 @@ parts/
 sdist/
 var/
 wheels/
+runs/
 share/python-wheels/
 *.egg-info/
 .installed.cfg
@@ -205,3 +207,6 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# wandb
+/wandb
